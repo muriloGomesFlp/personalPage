@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 <link href="images/favicon.png" rel="icon" />
-<title>Callum - Personal Portfolio HTML Template</title>
-<meta name="description" content="Callum is responsive bootstrap 5 one page personal portfolio html template.">
-<meta name="author" content="harnishdesign.net">
+<title></title>
+<meta id='metaDescript' name="description" content="This webpage aims to present the professional career of Murilo S. Gomes. It was used from the template provided by Callum and adapted as needed by the author.">
+<meta name="author" content="Murilo S. Gomes">
 
-<!-- Web Fonts -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
 
-<!-- Stylesheet
-============================== -->
-<!-- Animate -->
 <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
-<!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-<!-- Font Awesome Icon -->
 <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
-<!-- Owl Carousel -->
 <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
-<!-- Magnific Popup -->
 <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.min.css" />
-<!-- Custom Stylesheet -->
 <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
-<!-- Colors Css -->
-<link id="color-switcher" type="text/css" rel="stylesheet" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
@@ -61,23 +50,28 @@
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
           <div id="header-nav" class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
-			  <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#faq">FAQ</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Client</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+			  <li class="nav-item"><a class="nav-link smooth-scroll active" id='home' href="#home"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='about' href="#about"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='services' href="#services"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='resume' href="#resume"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='portfolio' href="#portfolio"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='faq' href="#faq"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='testimonial' href="#testimonial"></a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" id ='contact' href="#contact"></a></li>
             </ul>
           </div>
         </div>
         <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
-		  <ul class="social-icons">
-		  <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
-          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-		  <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+      <ul>        
+        <div class="row">
+          <ul class="social-icons">
+            <li><a class="btn_lang" data-lang="pt-br"><img src="images/br.png"></a></li>
+            <li><a class="btn_lang" data-lang="en"><img src="images/us.png"></a></li>
+            <li><a class="btn_lang" data-lang="es"><img src="images/es.png"></a></li>
           </ul>
+        </div>
+        
+      </ul>
         </div>
       </div>
     </nav>
@@ -99,15 +93,11 @@
           <div class="container my-auto py-4">
             <div class="row">
           <div class="col-lg-12 text-center order-1 order-lg-0">
-            <h1 class="text-8 text-white fw-400 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
-            <div class="typed-strings">
-              <p>Designer</p>
-              <p>Developer</p>
-              <p>Callum</p>
-            </div>
+            <h1 id='firstTextIntro' class="text-8 text-white fw-400 mb-0 text-uppercase"></h1>
+            
             <h2 class="text-23 text-white fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
-            <p class="text-5 text-light">based in Los Angeles, USA.</p>
-            <a href="#portfolio" class="btn btn-primary fw-600 rounded-0 smooth-scroll mt-3">View My Works</a> </div>
+            <p class="text-5 text-light" id="secTextintro"></p>
+            <a href="#portfolio" class="btn btn-primary fw-600 rounded-3 smooth-scroll mt-3" id="btn_works"></a> </div>
           
         </div>
 			
@@ -122,38 +112,43 @@
     <section id="about" class="section">
       <div class="container"> 
         <!-- Heading -->
-        <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">About Me</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Know Me More</h2>
+        <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2" id="aboutMeTxt"></span></p>
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" id="knowMoreText"></h2>
         <!-- Heading end-->
         
         <div class="row">
-          <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
-            <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Callum Smith</span></h2>
-            <p class="text-5">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
+          <div class="col-lg-8 text-center text-lg-start wow fadeInUp">            
+            <div id="textMeHi"></div>
+            <p class="text-5" id="textMe1"></p>
+            <p class="text-5" id="textMe2"></p>
+            <p class="text-5" id="textMe3"></p>
+            <p class="text-5" id="textMe4"></p>
+            
+
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
             <div class="featured-box style-4">
-              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s">22</span></div>
-              <h3 class="text-7 wow rubberBand" data-wow-delay="2s">Years of <span class="fw-700">Experiance</span></h3>
+              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s">10</span></div>
+              <div id="expirience"></div>
             </div>
           </div>
         </div>
         <div class="row gy-3 mt-4">
           <div class="col-6 col-lg-3 wow fadeInUp">
-            <p class="text-muted fw-500 mb-0">Name:</p>
-            <p class="text-4 text-dark fw-600 mb-0">Callum Smith</p>
+            <p id="name" class="text-muted fw-500 mb-0"></p>
+            <p class="text-4 text-dark fw-600 mb-0">Murilo Silveira Gomes</p>
           </div>
           <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p class="text-muted fw-500 mb-0">Email:</p>
-            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="">chat@callum.com</a></p>
+            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="">lilo.flp@gmail.com</a></p>
           </div>
           <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-            <p class="text-muted fw-500 mb-0">Date of birth:</p>
-            <p class="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
+            <p id="labelDateBirth" class="text-muted fw-500 mb-0"></p>
+            <p id="dateBirth" class="text-4 text-dark fw-600 mb-0"></p>
           </div>
           <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-            <p class="text-muted fw-500 mb-0">From:</p>
-            <p class="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+            <p id="labelFrom" class="text-muted fw-500 mb-0">:</p>
+            <p id="from" class="text-4 text-dark fw-600 mb-0"></p>
           </div>
         </div>
       </div>
@@ -165,51 +160,52 @@
     <section id="services" class="section bg-light">
       <div class="container"> 
         <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">What I Do?</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">How I can help your next project</h2>
+        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2" id="titleIdoYou"></span></p>
+         
+        <h2 id="titleNextProj" class="text-10 fw-600 text-center mb-5 wow fadeInUp"></h2>
         <!-- Heading end-->
         
         <div class="row gy-5 mt-5">
           <div class="col-sm-6 col-lg-4 wow fadeInUp">
             <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-palette"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-laptop-code"></i> </div>
+              <h3 id="sysDev" class="text-6 fw-600 mb-3"></h3>
+              <p id="descSysDev" class="text-muted mb-0"></p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp">
             <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-desktop"></i></div>
-              <h3 class="text-6 fw-600 mb-3">Web Design</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-pencil-ruler"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Web Development</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-paint-brush"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Brand Identity</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-cogs"></i></div>
+              <h3 id="ODcoach" class="text-6 fw-600 mb-3"></h3>
+              <p id="descODcoach" class="text-muted mb-0"></p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp">
             <div class="featured-box text-center px-md-4">
               <div class="featured-box-icon text-primary text-13"> <i class="fas fa-chart-area"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Business Analysis</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              <h3 id="DMeA" class="text-6 fw-600 mb-3"></h3>
+              <p id="descDMeA" class="text-muted mb-0"></p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp">
             <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-bullhorn"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Digital Marketing</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-cubes"></i> </div>
+              <h3 id="webM" class="text-6 fw-600 mb-3"></h3>
+              <p id="descWebM" class="text-muted mb-0"></p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-project-diagram"></i> </div>
+              <h3 id="PeSM" class="text-6 fw-600 mb-3"></h3>
+              <p id="descPeSM" class="text-muted mb-0"></p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-book-reader"></i> </div>
+              <h3 id="ReDOP" class="text-6 fw-600 mb-3"></h3>
+              <p id="descReDOP" class="text-muted mb-0"></p>
             </div>
           </div>
         </div>
@@ -222,80 +218,120 @@
     <section id="resume" class="section">
       <div class="container"> 
         <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Resume</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">A summary of My Resume</h2>
+        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2" id="titleResume"></span></p>        <h2 id="titleMyresume" class="text-10 fw-600 text-center mb-5 wow fadeInUp"></h2>
         <!-- Heading end-->
         
         <div class="row g-5 mt-5"> 
           <!-- My Education -->
           <div class="col-lg-6 wow fadeInUp">
-            <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+            <h2 id="education" class="text-7 fw-600 mb-4 pb-2"></h2>
             <div class="border-start border-2 border-primary ps-3">
-              <h3 class="text-5">Master in Computer Engineering</h3>
-              <p class="mb-2">Harvard University / 2015 - 2017</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="PhdTitle" class="text-5"></h3>
+              <p id="PhdUniversity" class="mb-2"></p>
+              <p id="PhdDesc" class="text-muted"></p>
               <hr class="my-4">
-              <h3 class="text-5">Bachelor in Computer Engineering</h3>
-              <p class="mb-2">University of California / 2014 - 2015</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="masterTitle" class="text-5"></h3>
+              <p id="masterUniversity" class="mb-2"></p>
+              <p id="masterDesc" class="text-muted"></p>
               <hr class="my-4">
-              <h3 class="text-5">Computer Science</h3>
-              <p class="mb-2">International University / 2013 - 2014</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="cntTitle" class="text-5"></h3>
+              <p id="cntUniversity" class="mb-2"></p>
+              <p id="cntDesc" class="text-muted"></p>
             </div>
           </div>
           <!-- My Experience -->
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-            <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+            <h2 id="experience" class="text-7 fw-600 mb-4 pb-2"></h2>
             <div class="border-start border-2 border-primary ps-3">
-              <h3 class="text-5">Sr. Font End Developer</h3>
-              <p class="mb-2">Apple Inc / 2020 - Current</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="UFSCtitle" class="text-5"></h3>
+              <p id="UFSCcompany" class="mb-2"></p>
+              <p id="UFSCdesc" class="text-muted"></p>
               <hr class="my-4">
-              <h3 class="text-5">Jr. Font End Developer</h3>
-              <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="senaiTitle" class="text-5"></h3>
+              <p id="senaiCompany" class="mb-2"></p>
+              <p id="senaiDesc" class="text-muted"></p>
               <hr class="my-4">
-              <h3 class="text-5">HTML Developer</h3>
-              <p class="mb-2">Adobe Inc / 2017 - 2018</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <h3 id="mftTitle" class="text-5"></h3>
+              <p  id="mftCompany" class="mb-2"></p>
+              <p id="mftDesc"  class="text-muted"></p>
             </div>
           </div>
         </div>
         
         <!-- My Skills -->
-        <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
+        <h2 id="skillTitle" class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp"></h2>
         <div class="row gx-5">
           <div class="col-md-6 wow fadeInUp">
-            <p class="fw-500 text-start mb-2">Web Design <span class="float-end">65%</span></p>
+            <p class="fw-500 text-start mb-2">Python <span class="float-end">75%</span></p>
             <div class="progress progress-sm mb-4">
               <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+            <p class="fw-500 text-start mb-2">PHP <span class="float-end">45%</span></p>
             <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">80%</span></p>
+            <p class="fw-500 text-start mb-2">Dart <span class="float-end">60%</span></p>
             <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">65%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">60%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">SQL <span class="float-end">55%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Firebase <span class="float-end">55%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Jquery <span class="float-end">65%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            
           </div>
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <p class="fw-500 text-start mb-2">React JS <span class="float-end">70%</span></p>
+            <p class="fw-500 text-start mb-2">Flask <span class="float-end">75%</span></p>
             <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <p class="fw-500 text-start mb-2">Angular Js <span class="float-end">60%</span></p>
+            <p class="fw-500 text-start mb-2">CodeIgniter <span class="float-end">45%</span></p>
             <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
+            <p class="fw-500 text-start mb-2">Flutter <span class="float-end">67%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 67%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">67%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 67%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Docker <span class="float-end">60%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Kubernets <span class="float-end">45%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Web Scrapping <span class="float-end">80%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Proactive <span class="float-end">99%</span></p>
             <div class="progress progress-sm mb-4">
               <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
-        <p class="text-center mt-5 wow fadeInUp"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+        <p class="text-center mt-5 wow fadeInUp"><a id="btn_lattes" class="btn btn-outline-primary shadow-none rounded-0"></a></p>
       </div>
     </section>
     <!-- Resume end --> 
@@ -305,53 +341,52 @@
     <section id="portfolio" class="section bg-light">
       <div class="container"> 
         <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Portfolio</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Some of my most recent projects</h2>
+        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2" id="portifolioTitle"></span></p>
+         <h2 id="subTitlePortfolio" class="text-10 fw-600 text-center mb-5 wow fadeInUp"></h2>
         <!-- Heading end--> 
         
         <!-- Filter Menu -->
         <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp">
-          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="">All</a></li>
-          <li class="nav-item"> <a data-filter=".detailed" href="" class="nav-link rounded-0">Detailed</a></li>
-          <li class="nav-item"> <a data-filter=".mockups" href="" class="nav-link rounded-0">Mockups</a></li>
-          <li class="nav-item"> <a data-filter=".youtube" href="" class="nav-link rounded-0">YouTube Videos</a></li>
-          <li class="nav-item"> <a data-filter=".vimeo" href="" class="nav-link rounded-0">Vimeo Videos</a></li>
+          <li class="nav-item"> <a id="portiFilterAll" data-filter="*" class="nav-link rounded-0 active" href=""></a></li>
+          <li class="nav-item"> <a id="portiFilterWebSys" data-filter=".WebSys" href="" class="nav-link rounded-0"></a></li>
+          <li class="nav-item"> <a id="portiFilterApp" data-filter=".mockups" href="" class="nav-link rounded-0"></a></li>
+          <li class="nav-item"> <a id="portiFilterYoutube" data-filter=".youtube" href="" class="nav-link rounded-0"></a></li>
         </ul>
         <!-- Filter Menu end -->
         <div class="portfolio wow fadeInUp">
           <div class="row g-4 mt-3 portfolio-filter">
-            <div class="col-sm-6 col-lg-4 detailed">
+            <div class="col-sm-6 col-lg-4 WebSys">
               <div class="portfolio-box">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/project-1.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-1.html"></a>
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="projects/pj1.html"></a>
                     <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
-                      <h5 class="text-white text-5">Detailed Project 1</h5>
-                      <span class="text-light">Category</span> </div>
+                      <p class="text-primary text-8"><i class="fas fa-laptop-code"></i></p>
+                      <h5 id="projSiAPDA" class="text-white text-5"></h5>
+                      <span class="text-light webSysGroup"></span> </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.2s">
+            <div class="col-sm-6 col-lg-4 WebSys" data-wow-delay="0.2s">
               <div class="portfolio-box">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/project-2.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/project-2.jpg"></a>
+                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="projects/pj2.html"></a>
                     <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
-                      <h5 class="text-white text-5">Mockups Design 1</h5>
-                      <span class="text-light">Category</span> </div>
+                      <p class="text-primary text-8"><i class="fas fa-laptop-code"></i></p>
+                      <h5 id="projSAMDA"  class="text-white text-5"></h5>
+                      <span class="text-light webSysGroup"></span> </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 youtube" data-wow-delay="0.3s">
+            <div class="col-sm-6 col-lg-4 WebSys" data-wow-delay="0.3s">
               <div class="portfolio-box">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/project-3.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-youtube stretched-link" href="https://www.youtube.com/watch?v=PMNnEEEacCg"></a>
+                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="projects/pj3.html"></a>
                     <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-video"></i></p>
-                      <h5 class="text-white text-5">YouTube Video</h5>
-                      <span class="text-light">Category</span> </div>
+                      <p class="text-primary text-8"><i class="fas fa-laptop-code"></i></p>
+                      <h5 id="projSiGMA"  class="text-white text-5"></h5>
+                      <span class="text-light webSysGroup"></span> </div>
                   </div>
                 </div>
               </div>
@@ -359,10 +394,10 @@
             <div class="col-sm-6 col-lg-4 vimeo">
               <div class="portfolio-box">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/project-4.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-vimeo stretched-link" href="https://vimeo.com/259411563"></a>
+                  <div class="portfolio-overlay"> <a class="popup-youtube stretched-link" href="https://youtube.com/watch?v=e04bISf_4Ac"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-primary text-8"><i class="fas fa-video"></i></p>
-                      <h5 class="text-white text-5">Vimeo Video</h5>
+                      <h5 class="text-white text-5">YouTube Video</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -406,8 +441,8 @@
         <div class="hero-bg parallax" style="background-image:url('images/intro-bg-2.jpg');"></div>
         <div class="hero-content section">
           <div class="container text-center py-5 wow fadeInUp">
-            <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?</h2>
-            <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s">Hire Me!</a> </div>
+            <h2 class="text-10 fw-600 text-white mb-5" id="interested"></h2>
+            <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s" id="btn_callAction"></a> </div>
         </div>
       </div>
     </section>
@@ -421,7 +456,7 @@
           <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp"> 
             <!-- Heading -->
             <p class="text-center text-lg-start mb-2"><span class="bg-primary text-dark px-2">FAQ</span></p>
-            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Have any questions?</h2>
+            <h2 class="text-10 fw-600 text-center text-lg-start mb-5" id="haveQuestion"></h2>
             <!-- Heading end-->
             <div class="accordion accordion-flush" id="faqTopics">
               <div class="accordion-item">
@@ -469,7 +504,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn" data-wow-delay="1s"> <img class="img-fluid" src="images/faq.png" title="FAQ" alt="faq"> </div>
+          <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn" data-wow-delay="1s"> <img class="img-fluid" src="images/faq2.png" title="FAQ" alt="faq"> </div>
         </div>
       </div>
     </section>
@@ -511,15 +546,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 text-center text-lg-start wow fadeInUp">
-            <h2 class="text-10 fw-600 mb-5">Let's get in touch</h2>
-            <p class="text-5 mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
-            <h3 class="text-5 fw-600">Living In:</h3>
-            <address class="text-4">
+            <h2 class="text-10-white fw-600 mb-5">Let's get in touch</h2>
+            <p class="text-5-white mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+            <h3 class="text-5-white fw-600">Living In:</h3>
+            <address class="text-4-white">
             30 Shacham street,
             Los Angeles, USA.
             </address>
-            <h3 class="text-5 fw-600">Call:</h3>
-            <p class="text-4">(+060) 444 434 444</p>
+            <h3 class="text-5-white fw-600">Call:</h3>
+            <p class="text-4-white">(+060) 444 434 444</p>
             <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
               <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
@@ -529,10 +564,10 @@
             </ul>
           </div>
           <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s">
-            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
+            <h2 class="text-10-white fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
             <!-- Contact Form -->
-            <form id="contact-form" class="form-border" action="php/mail.php" method="post">
-              <div class="row g-4">
+            <form id="contact-form" class="form-border form-fonts" action="php/mail.php" method="post">
+              <div  class="row g-4">
                 <div class="col-12">
                   <label class="form-label" for="name">What is Your Name:</label>
                   <input id="name" name="name" type="text" class="form-control py-1" required >
@@ -583,22 +618,7 @@
 ============================================= --> 
 <a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fas fa-arrow-up"></i></a> 
 
-<!-- Styles Switcher -->
-<div id="styles-switcher" class="right">
-  <h2 class="text-3 fw-600">Color Switcher</h2>
-  <hr>
-  <ul>
-    <li class="cyan" data-bs-toggle="tooltip" title="Cyan" data-path="assets/css/color-cyan.css"></li>
-    <li class="spring-green" data-bs-toggle="tooltip" title="Spring Green" data-path="assets/css/color-spring-green.css"></li>
-    <li class="green-yellow" data-bs-toggle="tooltip" title="Green Yellow" data-path="assets/css/color-green-yellow.css"></li>
-    <li class="lime-punch" data-bs-toggle="tooltip" title="Lime Punch" data-path="assets/css/color-lime-punch.css"></li>
-    <li class="violet" data-bs-toggle="tooltip" title="Violet" data-path="assets/css/color-violet.css"></li>
-    <li class="orange" data-bs-toggle="tooltip" title="Orange" data-path="assets/css/color-orange.css"></li>
-    <li class="pale-golden-rod" data-bs-toggle="tooltip" title="Pale Golden Rod" data-path="assets/css/color-pale-golden-rod.css"></li>
-    <li class="yellow" id="reset-color" data-bs-toggle="tooltip" title="Reset Default Yellow"></li>
-  </ul>
-  <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
-</div>
+
 <!-- Styles Switcher End --> 
 
 <!-- JavaScript --> 
@@ -626,6 +646,7 @@
 <script src="assets/js/switcher.min.js"></script> 
 <!-- Custom Script --> 
 <script src="assets/js/theme.js"></script>
+<script src="assets/js/languages.js"></script>
 <script src="assets/js/all.min.js"></script>
 
 </body>

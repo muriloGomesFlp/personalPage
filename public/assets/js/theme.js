@@ -237,9 +237,10 @@ $(this).parallaxie({
 
 /*------------------------------------
     Typed
--------------------------------------- */
+
 
 $(".typed").each(function() {
+	
 var typed = new Typed('.typed', {
     stringsElement: '.typed-strings',
 	loop: true,
@@ -248,7 +249,7 @@ var typed = new Typed('.typed', {
 	backDelay: 1500,
 });
 });
-
+-------------------------------------- */
 /*------------------------------------
     WOW animation
 -------------------------------------- */
