@@ -129,12 +129,17 @@ $(window).ready(function() {
             $('#portiFilterSites').text('Web Sites');
             $('#portiFilterYoutube').text('YouTube Videos');
             $('.webSysGroup').text('Web Systems');
+            $('.mobileApp').text('Mobilie Aplications');
+            $('.youtubeAcademic').text('YouTube Academic Videos');
+            $('.youtubeSys').text('YouTube Systems Videos');
             $('#projSiAPDA').text('Project SiAPDA');
             $('#projSAMDA').text('Project SAMDA');
             $('#projSiGMA').text('Project SiGMA');
                 //Proj1
             $('#project_siapda').attr('href', 'projects/siapda_en.html');
-
+            $('#project_samda').attr('href', 'projects/samda_en.html');
+            $('#project_sigma').attr('href', 'projects/sigma_en.html');
+            $('#project_appGcf').attr('href', 'projects/gcf_en.html');
 
             //Call Action
             $('#interested_2').text('Interested in working with me?')
@@ -266,10 +271,16 @@ $(window).ready(function() {
             $('#portiFilterSites').text('Web Sites');
             $('#portiFilterYoutube').text('Vídeos no Youtube');
             $('.webSysGroup').text('Sistemas Web');
+            $('.mobileApp').text('Aplicativos Mobilie');
             $('#projSiAPDA').text('Projeto SiAPDA');
             $('#projSAMDA').text('Projeto SAMDA');
             $('#projSiGMA').text('Projeto SiGMA');
+            $('.youtubeAcademic').text('YouTube Vídeos Academicos');
+            $('.youtubeSys').text('YouTube Vídeos de Sistemas');
             $('#project_siapda').attr('href', 'projects/siapda_pt.html');
+            $('#project_samda').attr('href', 'projects/samda_pt.html');
+            $('#project_sigma').attr('href', 'projects/sigma_pt.html');
+            $('#project_appGcf').attr('href', 'projects/gcf_pt.html');
             
             //Call Action
             $('#interested_2').text('Interessado em trabalhar comigo?')

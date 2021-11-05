@@ -167,7 +167,7 @@ body, html {
   }
   
   a:hover, a:active {
-    color: #f3d92c;
+    color: #0c2f55;
     text-decoration: none;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -3684,4 +3684,13 @@ body, html {
     right: auto;
     left: -40px;
     border-radius: 4px 0px 0px 4px;
+  }
+
+  .btn-modal{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .gcf_img{
+    width: 400px;
   }
