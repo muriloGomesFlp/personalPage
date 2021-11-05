@@ -5,12 +5,10 @@ $(window).ready(function() {
     var typed;  
     
          
-    if (userLang.includes('en')){
-        language('en');
-    }else if (userLang.includes('es')){
-        language('es')
-    }else{
-        language('pt-br')
+    if (userLang.includes('pt')){
+        language('pt-br');
+    }else {
+        language('en')
     }
 
     $('.btn_lang').click(function () {       
@@ -35,14 +33,14 @@ $(window).ready(function() {
             $('title').text('MSGomes - Murilo Silveira Gomes - Personal Page');
             $('html').attr('lang', 'us-EN');            
             //navbar
-            $('#home').text('Home');
-            $('#about').text('About');
-            $('#services').text('Services');
-            $('#resume').text('Resume');
-            $('#portfolio').text('Portfolio');
-            $('#faq').text('FAQ');
-            $('#testimonial').text('Client');
-            $('#contact').text('Contact');
+            $('#mHome').text('Home');
+            $('#mAbout').text('About');
+            $('#mServices').text('Services');
+            $('#mResume').text('Resume');
+            $('#mPortfolio').text('Portfolio');
+            $('#mFaq').text('FAQ');
+            $('#mTestimonial').text('Client');
+            $('#mContact').text('Contact');
             //intro
             $('#firstTextIntro').text("Hi, I can help you?");
             $('#btn_works').text('View My Works');
@@ -102,7 +100,24 @@ $(window).ready(function() {
             $('#UFSCcompany').text('Federal University of Santa Catarina / 2015 - 2021');        
             $('#UFSCdesc').text('Describe...');
             //skills
-            $('#skillTitle').text('My Skills');
+            $('#skillTitle').text('Technical Skills');
+            $('#personalTitle').text('Personal Skills');
+
+            $('#proactive').text('Proactive');
+            $('#comunicative').text('Communicative');
+            $('#teamW').text('Team work');
+            $('#interested').text('Interested');
+            $('#courios').text('Remote Work');
+            $('#dedic').text('Dedicated');
+            $('#comprome').text('Committed');
+            $('#transpa').text('Transparent');
+
+            $('#critic').text('Critical');
+            $('#learn').text('Continuous Learning');
+            $('#flexible').text('Flexible');
+            $('#analitc').text('Self-Manageable');
+
+
             $('#btn_lattes').text('View Lattes Curriculum');
             $('#btn_lattes').attr('href','http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8589066A6&idiomaExibicao=2');
             //portifolio 
@@ -111,22 +126,38 @@ $(window).ready(function() {
             $('#portiFilterAll').text('All');
             $('#portiFilterWebSys').text('Web Systems');
             $('#portiFilterApp').text('Mobile Apps');
+            $('#portiFilterSites').text('Web Sites');
             $('#portiFilterYoutube').text('YouTube Videos');
             $('.webSysGroup').text('Web Systems');
             $('#projSiAPDA').text('Project SiAPDA');
             $('#projSAMDA').text('Project SAMDA');
             $('#projSiGMA').text('Project SiGMA');
                 //Proj1
-            $('.clientLabel').text('Client:');
-            $('#clientNamePj1').text('Murilo Silveira Gomes | Federal University of Santa Catarina')
+            $('#project_siapda').attr('href', 'projects/siapda_en.html');
+
 
             //Call Action
-            $('#interested').text('Interested in working with me?')
+            $('#interested_2').text('Interested in working with me?')
             $('#btn_callAction').text('Hire Me!')
             //FAQ
             $('#haveQuestion').text('Have any questions?')
-
-
+            $('#faq1_question').text('How can I help you?');
+            $('#faq1_answer').text('I have experience for years in technology, I have always been dedicated to what I do and curious about new technologies. In this way, I believe that after a good conversation, an understanding of what you want, I can contribute with intelligent and technological solutions for your project / company.');
+            $('#faq2_question').text('How do I work?');
+            $('#faq2_answer').text('I have no problems with teamwork or solo." I believe that organization and good communication are keys to success, quality and commitment to deliveries. In this way, I like to organize, set the dates, map the requirements and finally start the project implementation phase.');
+            $('#faq3_question').text('The technical skills I seek did not find on your personal page and now?');
+            $('#faq3_answer').text("Do not worry, as I said, I have years of experience and worked in the most diverse projects throughout life. Do not be in doubt, contact me and we will solve this impasse. But if even yes I can not help you, I have a good network with excellent professionals that I'm sure will help you.");
+            $('#faq4_question').text("I'm a researcher, how can I help you?");
+            $('#faq4_answer').text('In addition to being passionate about technology I am a doctor in engineering and knowledge management, I worked as a teacher and I realized many research. I believe that all this experience made me realize the world otherwise, where the impossible is yes possible and what still does not exist is a matter of time to exist! In this way, let me help through research and scientificity to run your project and who knows together we develop some innovative product or solution.');
+            //Contact Me
+            $('#footnoteTitle').text("Let's get in touch");
+            $('#footnoteDesc').text('I like to discuss new projects and challenges. Please share the most possible information so we can enjoy our first reinião and who knows how to go out with a great solution!');
+            //FormMail
+            $('#estimateProj').text('Estimate your project? Doubts?');
+            $('#formName').text('What is Your Name:');
+            $('#formEmail').text('Your Email Address:');
+            $('#formDesc').text('How can I Help you?:');
+            $('#btnEmail').text('Send');
 
         }else if(lang == 'pt-br'){
             typedTexts=['Desenvolvimento de Sistemas','Gestão de Projetos e Serviço','Pesquisa e Inovação'];
@@ -141,14 +172,14 @@ $(window).ready(function() {
             $('title').text('MSGomes - Murilo Silveira Gomes - Página Pessoal');
             $('html').attr('lang', 'pt-BR');            
             //navbar
-            $('#home').text('Início');
-            $('#about').text('Sobre');
-            $('#services').text('Serviços');
-            $('#resume').text('Resumo');
-            $('#portfolio').text('Portfólio');
-            $('#faq').text('FAQ');
-            $('#testimonial').text('Cliente');
-            $('#contact').text('Contato');
+            $('#mHome').text('Início');
+            $('#mAbout').text('Sobre');
+            $('#mServices').text('Serviços');
+            $('#mResume').text('Resumo');
+            $('#mPortfolio').text('Portfólio');
+            $('#mFaq').text('FAQ');
+            $('#mTestimonial').text('Cliente');
+            $('#mContact').text('Contato');
             //intro
             $('#firstTextIntro').text("Olá, Posso te ajudar?");
             $('#btn_works').text('Meus Trabalhos');
@@ -186,7 +217,7 @@ $(window).ready(function() {
             $('#titleMyresume').text('A summary of My Resume');
             //Education
             $('#education').text('Minha Escolaridade');        
-            $('#PhdTitle').text('Doutro em Engenharia e Gestão do Conhecimento');
+            $('#PhdTitle').text('Doutor em Engenharia e Gestão do Conhecimento');
             $('#PhdUniversity').text('Universidade Federal de Santa Catarina / 2017 - 2021');
             $('#PhdDesc').text('Describe...');
             $('#masterTitle').text('Mestre em Engenharia e Gestão do Conhecimento');
@@ -207,7 +238,22 @@ $(window).ready(function() {
             $('#UFSCcompany').text('Universidade Federal de Santa Catarina / 2015 - 2021');        
             $('#UFSCdesc').text('Describe...');
             //skills
-            $('#skillTitle').text('Minhas Habilidades');
+            $('#skillTitle').text('Habilidades Técnicas');
+            $('#personalTitle').text('Habilidades Pessoais');
+            
+            $('#proactive').text('Proativo');
+            $('#comunicative').text('Comunicativo');
+            $('#teamW').text('Trabalho em equipe');
+            $('#interested').text('Interessado');
+            $('#courios').text('Trabalho Remoto');
+            $('#dedic').text('Dedicado');
+            $('#comprome').text('Comprometido');
+            $('#transpa').text('Transparente');
+            $('#critic').text('Crítico');
+            $('#learn').text('Aprendizado Contínuo');
+            $('#flexible').text('Flexível');
+            $('#analitc').text('Autogerenciamento');
+
             $('#btn_lattes').text('Visualizar Currículo Lattes');
             $('#btn_lattes').attr('href','http://lattes.cnpq.br/3899359603733981');
 
@@ -217,127 +263,43 @@ $(window).ready(function() {
             $('#portiFilterAll').text('Todos');
             $('#portiFilterWebSys').text('Sistemas Web');
             $('#portiFilterApp').text('Aplicativos Mobile');
+            $('#portiFilterSites').text('Web Sites');
             $('#portiFilterYoutube').text('Vídeos no Youtube');
             $('.webSysGroup').text('Sistemas Web');
             $('#projSiAPDA').text('Projeto SiAPDA');
             $('#projSAMDA').text('Projeto SAMDA');
             $('#projSiGMA').text('Projeto SiGMA');
-             
-            $('.clientLabel').text('Cliente:');
-            $('#clientNamePj1').text('Murilo Silveira Gomes | Universidade Federal de Santa Catarina')
+            $('#project_siapda').attr('href', 'projects/siapda_pt.html');
             
             //Call Action
-            $('#interested').text('Interessado em trabalhar comigo?')
+            $('#interested_2').text('Interessado em trabalhar comigo?')
             $('#btn_callAction').text('Contrate-me!')
             //FAQ
             $('#haveQuestion').text('Tem alguma pergunta?')
+            $('#faq1_question').text('Como posso Ajudar?');
+            $('#faq1_answer').text('Tenho experiência a anos em tecnologia, sempre fui dedicado no que faço e curioso em relação a novas tecnologias. Desta forma, acredito que após uma boa conversa, um entendimento sobre o que você deseja, posso contribuir com soluções inteligentes e tecnológicas para seu projeto/empresa.');
+            $('#faq2_question').text('Como eu trabalho?');
+            $('#faq2_answer').text('Não tenho problemas com trabalho em equipe ou solo. Acredito que a organização e a boa comunicação são chaves para o sucesso, qualidade e comprometimento das entregas. Desta forma, gosto de organizar, definir as datas, mapear os requisitos e por fim, iniciar a fase de implementação do projeto.');
+            $('#faq3_question').text('As habilidades técnicas que procuro não encontrei na sua página pessoal e agora?');
+            $('#faq3_answer').text('Não se preocupe, como disse, tenho anos de experiência e trabalhei nos mais diversos projetos ao longo da vida. Não fique na dúvida, entre com contato comigo e resolveremos esse impasse. Mas se mesmo sim eu não consiga lhe ajudar, tenho um bom “network” com excelentes profissionais que tenho certeza que irão te ajudar.');
+            $('#faq4_question').text('Sou pesquisador, como eu posso te ajudar?');
+            $('#faq4_answer').text('Além de ser apaixonado por tecnologia sou doutor em engenharia e gestão do conhecimento, atuei como docente e realizei muitas pesquisas. Acredito que toda essa experiência me fez perceber o mundo de outra forma, onde o impossível é sim possível e o que ainda não existe é questão de tempo para existir! Desta forma, deixe-me ajudar por meio da pesquisa e da cientificidade a executar seu projeto e quem sabe juntos desenvolvemos algum produto ou solução inovadora.');
+            //Contact me
+            $('#footnoteTitle').text("Vamos entrar em contato");
+            $('#footnoteDesc').text('Eu gosto de discutir novos projetos e desafios. Por favor, compartilhe o máximo de informações possíveis para que possamos aproveitar a nossa primeira reuinião e quem sabe sair com uma grande solução!');
+            //sendMail
+            $('#estimateProj').text('Estimar seu projeto? Dúvidas?');
+            $('#formName').text('Qual seu Nome:');
+            $('#formEmail').text('Seu e-mail:');
+            $('#formDesc').text('Como posso ajudar você?:');
+            $('#btnEmail').text('Enviar');
 
-        }else if(lang =='es'){
-        typedTexts=['Desarrollo de sistemas ',' Gestión de proyectos y servicios ',' Investigación e innovación'];
-        if(typeof(typed)  == 'undefined'){
-            typedControl(typedTexts);
-        }else{
-            typed.destroy();
-            typedControl(typedTexts);
-        } 
-        //head
-        $('title').text('MSGomes - Murilo Silveira Gomes - Página Personal');
-        $('html').attr('lang', 'pt-BR');            
-        //navbar
-        $('#home').text('Comienzo');
-        $('#about').text('Sobre');
-        $('#services').text('Servicios');
-        $('#resume').text('Resumen');
-        $('#portfolio').text('Portafolio');
-        $('#faq').text('FAQ');
-        $('#testimonial').text('Cliente');
-        $('#contact').text('Contacto');
-        //intro
-        $('#firstTextIntro').text("¿Hola, te puedo ayudar?");
-        $('#btn_works').text('Mis trabajos');
-        //about
-        $('#aboutMeTxt').text('Sobre Mi');
-        $('#knowMoreText').text('Aprende más');
-        $('#textMeHi').append('<h2 id="hi" class="text-8 fw-400 mb-3">Yo soy<span class="fw-700 border-bottom border-3 border-primary"> Murilo Silveira Gomes</span></h2>');
-        $('#textMe1').text("Hola, soy un desarrollador apasionado de investigación y tecnologías. Creo que estos universos complementan.");
-        $('#textMe2').text("Tengo un doctorado en ingeniería y gestión del conocimiento, centrándose en la ingeniería del conocimiento. Mi investigación fue sobre datos abiertos, con el objetivo de proponer un modelo de evaluación de portales de datos abiertos y sus datos, considerando buenas prácticas de datos web y recomendaciones basadas en la literatura.");
-        $('#textMe3').text("Para poder aplicar mi estudio, desarrollé una herramienta web llamada Sistema de evaluación de portal de datos abiertos (SIAPDA). A lo largo de mi vida académica, tuve la oportunidad de trabajar con diferentes tecnologías y me enamoré de lo que se puede hacer junto con la investigación, y entiendo la importancia de este universo.");
-        $('#textMe4').text("Então deixe eu ajudar você a tirar do papel sua ideia, projeto ou porque não sua pesquisa e com o auxílio da tecnologia obter resultados fantásticos!");
-        $('#expirience').append('<h3 id="descExpirience" class="text-7 wow rubberBand" data-wow-delay="2s">Años de <span class="fw-700">Experiencia</span></h3>');
-        $('#name').text('Nombre:');
-        $('#labelDateBirth').text('Fecha de nacimiento:');
-        $('#dateBirth').text('06 de Setembro de 1989');
-        $('#labelFrom').text('Vivo en:');
-        $('#from').text('Camboriú - Santa Catarina - Brasil');
-       //Services
-        $('#titleIdoYou').text('¿Qué hago?');
-        $('#titleNextProj').text('¿Cómo puedo ayudarlo en su próximo proyecto?');
-        $('#sysDev').text('Desarrollo de sistemas');
-        $('#descSysDev').text('Describe...');
-        $('#ODcoach').text('Capacitación sobre datos abiertos');
-        $('#descODcoach').text('Describe...');
-        $('#DMeA').text('Análisis de datos');
-        $('#descDMeA').text('Describe...');
-        $('#webM').text('Minería web');
-        $('#descWebM').text('Describe...');
-        $('#PeSM').text('Proyectos y gestión de servicios de TI.');
-        $('#descPeSM').text('Describe...');
-        $('#ReDOP').text('Investigación y desarrollo en datos abiertos.');
-        $('#descReDOP').text('Describe...');
-       //Resume 
-        $('#titleResume').text('Resumen');
-        $('#titleMyresume').text('Un resumen de mi currículum');
-        //Education
-        $('#education').text('Mi educación');        
-        $('#PhdTitle').text('Doctor en Ingeniería y Gestión del Conocimiento.');
-        $('#PhdUniversity').text('Universidad Federal de Santa Catarina / 2017 - 2021');
-        $('#PhdDesc').text('Describe...');
-        $('#masterTitle').text('Máster en Ingeniería y Gestión del Conocimiento.');
-        $('#masterUniversity').text('Universidad Federal de Santa Catarina / 2015 - 2017');
-        $('#masterDesc').text('Describe...');
-        $('#cntTitle').text('Tecnólogo en redes informáticas');
-        $('#cntUniversity').text('Universidad del sur de Santa Catarina / 2007 - 2013');
-        $('#cntDesc').text('Describe...');
-        //Experience
-        $('#experience').text('Mis experiencias');
-        $('#mftTitle').text('Persona de negocios');
-        $('#mftCompany').text('MF Tecnología / 2010 -2013');
-        $('#mftDesc').text('Instalación del sistema de vigilancia CCTV, instalación de sistemas de automatización; Instalación de sistemas de conserjería, instalación de sistemas de telefonía y redes informáticas; Mantenimiento de servidores Linux y Windows, mantenimiento de impresoras; Soporte para usuarios, mantenimiento de computadoras y cuadernos.');
-        $('#senaiTitle').text('Colaborador - Especialista en Informática I');
-        $('#senaiCompany').text('Servicio Nacional de Aprendizaje Industrial - SENAI / 2013 - 2015');
-        $('#senaiDesc').text('Profesor de nivel técnico y de calificación, actuando como facilitador de tecnología educativa, centrándose en ayudar a los maestros en el aula, presentándoles nuevas tecnologías, nuevos enfoques didácticos y elaboración de materiales didácticos. Actuando también como el interlocutor de los mecanismos de innovación, que tiene actividades inherentes a la preiniciadora, Inova SENAI / SC, alentando la publicación de maestros, la revista E-Tech. Así como el rol de administrador de pruebas del Centro Centro Vue Pearson Center.');
-        $('#UFSCtitle').text('Beca titular / Estudiante');
-        $('#UFSCcompany').text('Universidad Federal de Santa Catarina / 2015 - 2021');        
-        $('#UFSCdesc').text('Describe...');
-        //skills
-        $('#skillTitle').text('Mis habilidades');
-        $('#btn_lattes').text('Ver Currículum Lattes');
-        $('#btn_lattes').attr('href','http://lattes.cnpq.br/3899359603733981');
-
-        //portifolio 
-        $('#portifolioTitle').text('Portafolio')
-        $('#subTitlePortfolio').text('Algunos de mis proyectos');
-        $('#portiFilterAll').text('Todos');
-        $('#portiFilterWebSys').text('Sistemas Web');
-        $('#portiFilterApp').text('Aplicaciones Mobile');
-        $('#portiFilterYoutube').text('Videos en Youtube');
-        $('.webSysGroup').text('Sistemas Web');
-        $('#projSiAPDA').text('Proyecto SiAPDA');
-        $('#projSAMDA').text('Proyecto SAMDA');
-        $('#projSiGMA').text('Proyecto SiGMA');
-
-        //Call Action
-        $('#interested').text('¿Interesado en trabajar conmigo?')
-        $('#btn_callAction').text('¡Contratame!')
-        //FAQ
-        $('#haveQuestion').text('¿Tiene alguna pregunta?')
-    }
-}
+        }}
     function cleanAppends(){
         $('#hi').remove();
         $('#descExpirience').remove();    
     };
-
+    
 /*------------------------------------
     Typed
 -------------------------------------- */

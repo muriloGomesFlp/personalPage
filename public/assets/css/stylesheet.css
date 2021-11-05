@@ -257,6 +257,12 @@ body, html {
     font-size: 14px !important;
     font-size: 0.875rem !important;
   }
+  .text-2-justy {
+    font-size: 14px !important;
+    font-size: 0.875rem !important;
+    text-align: justify;
+
+  }
   
   .text-3 {
     font-size: 16px !important;
@@ -2935,7 +2941,7 @@ body, html {
     display: block;
     height: 26px;
     line-height: 26px;
-    width: 26px;
+    /*width: 26px;*/
     font-size: 20px;
     text-align: center;
     color: #4d555a;
@@ -2978,15 +2984,15 @@ body, html {
   }
   
   .social-icons li:hover.social-icons-twitter a, .social-icons.social-icons-colored li.social-icons-twitter a {
-    color: #00ACEE;
+    color: #ffffff;
   }
   
   .social-icons li:hover.social-icons-facebook a, .social-icons.social-icons-colored li.social-icons-facebook a {
-    color: #3B5998;
+    color: #ffffff;
   }
   
   .social-icons li:hover.social-icons-linkedin a, .social-icons.social-icons-colored li.social-icons-linkedin a {
-    color: #0E76A8;
+    color: #ffffff;
   }
   
   .social-icons li:hover.social-icons-rss a, .social-icons.social-icons-colored li.social-icons-rss a {
@@ -2998,7 +3004,7 @@ body, html {
   }
   
   .social-icons li:hover.social-icons-github a, .social-icons.social-icons-colored li.social-icons-github a {
-    color: #333333;
+    color: #ffffff;
   }
   
   .social-icons li:hover.social-icons-behance a, .social-icons.social-icons-colored li.social-icons-behance a {
@@ -3427,7 +3433,7 @@ body, html {
   }
   
   .bg-secondary {
-    background-color: #939597 !important;
+    background-color: #000d1aeb !important;
   }
   
   .text-primary {
@@ -3475,13 +3481,13 @@ body, html {
   }
   
   .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #f3d92c;
-    border-color: #f3d92c;
+    background-color: #007dc5;
+    border-color: #007dc5;
   }
   
   .btn-primary.focus, .btn-primary:focus {
-    background-color: #f3d92c;
-    border-color: #f3d92c;
+    background-color: #219ee7;
+    border-color: #219ee7;
   }
   
   .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
