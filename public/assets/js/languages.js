@@ -62,17 +62,17 @@ $(window).ready(function() {
             $('#titleIdoYou').text('What I Do?');
             $('#titleNextProj').text('How I can help your next project');
             $('#sysDev').text('Systems Development');
-            $('#descSysDev').text('Describe...');
+            $('#descSysDev').text('I have experience in developing web, Mobilie and Desktop systems. I can help you with your project by developing a new system, performing any maintenance or updating. As I mentioned, I am passionate about technology, so I love challenges, if you have a new technology that wants to use in your project, it will be a pleasure to help.');
             $('#ODcoach').text('Open data Coaching');
-            $('#descODcoach').text('Describe...');
+            $('#descODcoach').text("I search open data for six years, from my master's degree to the doctorate and can help you improve the way you are making available your data, the most suitable formats to foster data use, licenses to fence data, etc. I have experience and I can guarantee that with a good capacity building we can improve the mode and the data that are made available.");
             $('#DMeA').text('Data analytics');
-            $('#descDMeA').text('Describe...');
+            $('#descDMeA').text('In my thesis research I had to perform various data analyzes. For this, I used cleaning techniques, selection, reduction, transformation, etc., and it is possible to perform the coherent data analysis and reflecting in satisfactory results.');
             $('#webM').text('Web Mining');
-            $('#descWebM').text('Describe...');
-            $('#PeSM').text('IT project and services management');
-            $('#descPeSM').text('Describe...');
-            $('#ReDOP').text('Research and Development on Open Data');
-            $('#descReDOP').text('Describe...');
+            $('#descWebM').text('Web mining provides automated collection of present information from websites. This allows you to collect different data from websites or create "robots" to interact with web systems enabling collecting dynamic data that was once possible only with human interspection.');
+            $('#PeSM').text('Classes, Guidelines and Consulting');
+            $('#descPeSM').text('If you have doubts about technologies or subjects of your graduation, I can help you with private and punctual classes, in order to clarify doubts and help you assimilate the content. If you want help in conducting your research (masters and doctorate) or even help in your TCC, I can help! As I have a PhD and I understand the importance of good guidance and co-supervision and I believe I can help you on this journey. Furthermore, due to your vast experience in projects and mainly in open data, we can work together through consultancies and achieve interesting results.');
+            $('#ReDOP').text('Servers and Cloud Computer');
+            $('#descReDOP').text('As I mentioned earlier, as I have a degree in computer networking I have had good experiences with servers (one of the things I like to work with the most) and I can help you implement services, applications, network control, proxy etc. Given the new technology and possibilities of cloud computing in recent months I studied some cloud platforms and I was very comfortable with what can be done, I used Kubernets, Virtual Machine, among others. Let me help you identify in your project how cloud computing can be applied and you will be amazed by the results.');
            //Resume 
            $('#titleResume').text('Resume');
            //$('#titleResume').append('<p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Resume</span></p>');
@@ -80,14 +80,14 @@ $(window).ready(function() {
             //Education
             $('#education').text('My Education');        
             $('#PhdTitle').text('PhD in engineering and knowledge management');
-            $('#PhdUniversity').text('Federal University of Santa Catarina / 2017 - 2021');
-            $('#PhdDesc').text('Describe...');
+            $('#PhdUniversity').text('Federal University of Santa Catarina (UFSC) / 2017 - 2021');
+            $('#PhdDesc').text("In my doctorate I continued at PPEGC and in the same area of ​​concentration. As I was a graduate of the course, I was able to focus on participating in several projects and enjoy improving my developer and server skills. I could work with different languages ​​PHP, Python, Js and libraries, in addition to different SQL, NoSQL and SPARQL databases. Since my dissertation is related to open data, I naturally continued with the theme, however, realizing the difficulty of using open data made available by public/private organizations due to several problems, I decided to propose a model that could evaluate open data portals and the data made available. Due to the large volume of data that a data portal has, a system was developed for automated collection, application of the model, evaluation and analysis of data from open data portals, this system was called Open Data Portal Evaluation System – SiAPDA.");
             $('#masterTitle').text('Master in engineering and knowledge management');
-            $('#masterUniversity').text('Federal University of Santa Catarina / 2015 - 2017');
-            $('#masterDesc').text('Describe...');
+            $('#masterUniversity').text('Federal University of Santa Catarina (UFSC) / 2015 - 2017');
+            $('#masterDesc').text("The Postgraduate Course in Knowledge Engineering and Management (PPEGC) has three areas of concentration, Knowledge Management, Knowledge Engineering and Knowledge Media. When I attended the master's degree, I chose the Knowledge Engineering concentration area, as this area uses the cognitive vision to carry out research and development of methods, techniques and tools that enable the construction of a model and knowledge systems. In my dissertation I research innovation ecosystems versus software ecosystems to understand their differences and propose an architecture for open data ecosystems.");
             $('#cntTitle').text('Computer network technologist');
-            $('#cntUniversity').text('University of Southern Santa Catarina / 2007 - 2013');
-            $('#cntDesc').text('Describe...');
+            $('#cntUniversity').text('University of Southern Santa Catarina (UNISUL) / 2007 - 2013');
+            $('#cntDesc').text("Computer Networks is a course that aims to train professionals capable of designing, developing and implementing computer networks. The professional is also responsible for proposing improvements, integrating and maintaining a company's network. In my graduation I had the opportunity to glimpse several disciplines, programming, network management, network security, server administration, structured cabling, among others. This was important, as I got a know-how on how to set up and configure servers, for example, Web servers, Proxy, etc. In my TCC an Asterix server in VoIP was mounted for sending and receiving faxes, it was used in the Ubunto Server as OS.");
             //Experience
             $('#experience').text('My Experience');
             $('#mftTitle').text('Businessperson');
@@ -97,8 +97,8 @@ $(window).ready(function() {
             $('#senaiCompany').text('National Service for Industrial Learning - SENAI / 2013 - 2015');
             $('#senaiDesc').text('Technical level and qualified teacher, also acting as an Educational Technology Facilitator, focusing on helping teachers in the classroom, introducing them to new technologies, new teaching approaches and developing teaching materials. Also acting as Interlocutor of Innovation Mechanisms, which has as inherent activities the Pre-incubator, Inova SENAI/SC, Incentive to teaching publication, E-Tech Magazine. As well as performing the role of administrator of the test center at VUE Pearson.');
             $('#UFSCtitle').text('Scholarship holder');
-            $('#UFSCcompany').text('Federal University of Santa Catarina / 2015 - 2021');        
-            $('#UFSCdesc').text('Describe...');
+            $('#UFSCcompany').text('Federal University of Santa Catarina (UFSC) / 2015 - 2021');        
+            $('#UFSCdesc').text("From my master's to my doctorate I've been involved in different projects and events. I worked as organizer of academic events, managed EasyChair (academic article submission platform), implemented services and systems to assist in the academic activities of the Graduate Program in Engineering and Knowledge Management — PPEGC, such as: Open Journal System , Wordpress, Certificate Management System, among others. I was also able to work on important projects such as the Alignment of the National School of Agricultural Management (ENAGRO) with MAPA's Knowledge Management and Public Governance, V State Conference on Science, Technology and Innovation of Santa Catarina, Observatory for the Promotion of Innovation in the Santa Catarina Industry ,  among others.");
             //skills
             $('#skillTitle').text('Technical Skills');
             $('#personalTitle').text('Personal Skills');
@@ -206,31 +206,31 @@ $(window).ready(function() {
             $('#titleIdoYou').text('O que eu faço?');
             $('#titleNextProj').text('Como eu posso ajudar você em seu próximo projeto');
             $('#sysDev').text('Desenvolvimento de Sistemas');
-            $('#descSysDev').text('Describe...');
+            $('#descSysDev').text('Possuo experiência em desenvolver sistemas Web, Mobilie e Desktop. Posso ajudá-lo seu projeto, desenvolvendo um novo sistema, realizar alguma manutenção ou atualização. Como mencionei, sou apaixonado por tecnologia, então adoro desafios, caso tenha uma nova tecnologia que queira utilizar em seu projeto, será um prazer em ajudar.');
             $('#ODcoach').text('Capacitação acerca de dados abertos');
-            $('#descODcoach').text('Describe...');
+            $('#descODcoach').text('Pesquiso dados abertos à seis anos, desde o meu mestrado até o doutorado e posso ajudá-lo a melhorar a maneira que está disponibilizando seus dados, os formatos mais adequado para fomentar o uso dos dados, as licenças a cerca dos dados etc. Tenho experiência e posso garantir que com uma boa capacitação podemos melhorar o modo e os dados que são disponibilizados.');
             $('#DMeA').text('Análise de dados');
-            $('#descDMeA').text('Describe...');
+            $('#descDMeA').text('Na minha pesquisa de tese tive que realizar diversas análises de dados. Para isso, utilizei de técnicas de limpeza, seleção, redução, transformação etc, sendo possível realizar à análise de dados coerente e que reflita em resultados satisfatórios.');
             $('#webM').text('Mineração da Web');
-            $('#descWebM').text('Describe...');
-            $('#PeSM').text('Gerenciamento de projetos e serviços de TI');
-            $('#descPeSM').text('Describe...');
-            $('#ReDOP').text('Pesquisa e desenvolvimento em dados abertos');
-            $('#descReDOP').text('Describe...');
+            $('#descWebM').text('A mineração Web proporciona a coleta automatizada de informações presentes de Websites. Isso permite coletar diferentes dados oriundos de sites ou mesmo criar “robôs” para interagir com sistemas Web possibilitando coletar dados dinamicos que antes era possível apenas com a interção humana.');
+            $('#PeSM').text('Aulas, Orientação e Consultoria');
+            $('#descPeSM').text('Se você possui dúvidas em relação a tecnologias ou disciplinas de sua graduação posso lhe ajudar com aulas particulares e pontuais, de modo a esclarecer dúvidas e ajudá-lo a assimilar o conteúdo. Caso queira auxilio na condução de sua pesquisa (mestrado e doutorado) ou mesmo auxilio no seu TCC, posso ajudar! Como possuo doutorado e entendo a importância de uma boa orientação e coorientação e acredito que posso auxiliar você nessa jornada. Além disso, por te uma vasta experiência em projetos e principalmente em dados abertos, podemos trabalhar juntos por meio de consultorias e atingir resultados interessantes');
+            $('#ReDOP').text('Servidores e Compução em Nuvem');
+            $('#descReDOP').text('Como mencionei anteriormente, por possui uma graduação na área de redes de computadores tive boas experiências com servidores (uma das coisas que mais gosto de trabalhar) e posso ajudá-lo a implementar serviços, aplicações, controle de rede, proxy etc. Dado as novas tecnologia e possibilidades da computação em nuvem nesses últimos meses  estudei algumas plataformas de nuvem e fiquei muito à vontade com o que pode ser feito, usei de Kubernets, Virtual Machine, entre outros. Deixe me ajudar a identificar em seu projeto como a computação em nuvem pode ser aplicado e você vai se surpreender com os resultados.');
            //Resume 
             $('#titleResume').text('Resumo');
             $('#titleMyresume').text('A summary of My Resume');
             //Education
             $('#education').text('Minha Escolaridade');        
             $('#PhdTitle').text('Doutor em Engenharia e Gestão do Conhecimento');
-            $('#PhdUniversity').text('Universidade Federal de Santa Catarina / 2017 - 2021');
-            $('#PhdDesc').text('Describe...');
+            $('#PhdUniversity').text('Universidade Federal de Santa Catarina (UFSC) / 2017 - 2021');
+            $('#PhdDesc').text('No meu doutorado continuei no Pós-graduação em Engenharia e Gestão do conhecimento - PPEGC e na mesma área de concentração. Como eu era egresso do curso, consegui me focar em participar de diversos projetos e aproveitar aperfeiçoar minhas habilidades de desenvolvedor e com servidores. Pude trabalhar com diferentes linguagens PHP, Python, Js e bibliotecas, além de diferentes bancos de dados SQL, NoSQL e SPARQL. Dado a minha dissertação ser relacionada com dados abertos, naturalmente continuei com o tema, contudo, percebendo a dificuldade de utilizar dos dados abertos disponibilizados por organizações públicas/privadas por conta de diversos problemas, decidi propor um modelo que pudesse avaliar os portais de dados abertos e os dados disponibilizados. Por conta do grande volume de dados que um portal de dados possui, foi desenvolvido um sistema para coleta automatizada, aplicação do modelo, avaliação e análise dos dados oriundos dos portais de dados abertos, esse sistema foi denominado Sistema de Avaliação de portais de Dados Abertos – SiAPDA.');
             $('#masterTitle').text('Mestre em Engenharia e Gestão do Conhecimento');
-            $('#masterUniversity').text('Universidade Federal de Santa Catarina / 2015 - 2017');
-            $('#masterDesc').text('Describe...');
+            $('#masterUniversity').text('Universidade Federal de Santa Catarina (UFSC) / 2015 - 2017');
+            $('#masterDesc').text('O curso de Pós-graduação em Engenharia e Gestão do conhecimento - PPEGC possui três áreas de concentração, a Gestão do Conhecimento, a Engenharia do Conhecimento e a Mídia do Conhecimento. Quando cursei o mestrado escolhi a área de concentração de Engenharia do Conhecimento, pois esta área usa da visão cognitivista para realizar pesquisa e desenvolvimento de métodos, técnicas e ferramentas que possibilitem a construção de modelo e sistemas de conhecimento. Na minha dissertação pesquisa sobre ecossistemas de inovação X ecossistemas de software para entender suas diferenças e propor uma arquitetura para ecossistemas de dados abertos.');
             $('#cntTitle').text('Tecnólogo em Redes de Computadores');
-            $('#cntUniversity').text('Universidade do Sul de Santa Catarina / 2007 - 2013');
-            $('#cntDesc').text('Describe...');
+            $('#cntUniversity').text('Universidade do Sul de Santa Catarina (UNISUL) / 2007 - 2013');
+            $('#cntDesc').text('Redes de Computadores é um curso que tem como objetivo formar profissionais capacitados para projetar, desenvolver e implantar redes de computadores. O profissional ainda é responsável por propor melhorias, integrar e fazer a manutenção da rede de uma empresa.Na minha graduação tive a oportunidade de vislumbrar várias disciplinas, programação, gestão de redes, segurança em redes, administração de servidores, cabeamento estruturado, dentre outras. Isso foi importante, pois obtive um know-how de como montar e configurar servidores, como exemplo, servidores Web, Proxy, etc. Em meu TCC foi montado um servidor Asterix em VoIP para o envio e recebimento de fax, foi utilizado no Ubunto Server como OS.');
             //Experience
             $('#experience').text('Minhas Experiências');
             $('#mftTitle').text('Empresário');
@@ -241,7 +241,7 @@ $(window).ready(function() {
             $('#senaiDesc').text('Professor de nível técnico e qualificação, atuando também como Facilitador de Tecnologia Educacional, com foco em auxiliar os professores em sala de aula, apresentando a eles novas tecnologias, novas abordagens didáticas e elaborando materiais didáticos. Atuando também como Interlocutor dos Mecanismos de Inovação, que tem como atividades inerentes o Pré-incubadora, Inova SENAI/SC, Incentivo a publicação docente, Revista E-Tech. Assim como exerce a função de administrador do teste center da VUE Pearson.');
             $('#UFSCtitle').text('Bolsista / Estudante');
             $('#UFSCcompany').text('Universidade Federal de Santa Catarina / 2015 - 2021');        
-            $('#UFSCdesc').text('Describe...');
+            $('#UFSCdesc').text('Desde o meu mestrado ate o doutorado estive envolvido em diferentes projetos e eventos. Trabalhei como organizador de eventos acadêmicos, gerenciei o EasyChair (plataforma de submissão de artigos acadêmicos), implementei serviços e sistemas para auxiliar nas atividades acadêmicas do Programa de Pós-Graduação em Engenharia e Gestão do Conhecimento — PPEGC, tais como: Open Journal System , Wordpress, Sistema de Gerenciamento de Certificados, dentre outros. Também pude trabalhar em projetos importantes como o Alinhamento da Escola Nacional de Gestão Agropecuária (ENAGRO) à Gestão do Conhecimento e Governança Pública do MAPA., V Conferência Estadual de Ciência, Tecnologia e Inovação de Santa Catarina, Observatório para fomento da Inovação na Industria Catarinense,  dentre outros.');
             //skills
             $('#skillTitle').text('Habilidades Técnicas');
             $('#personalTitle').text('Habilidades Pessoais');
