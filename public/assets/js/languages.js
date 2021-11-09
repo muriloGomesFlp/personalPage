@@ -122,7 +122,7 @@ $(window).ready(function() {
             $('#btn_lattes').attr('href','http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8589066A6&idiomaExibicao=2');
 
             $('#btn_vitae').text('View Curriculum Vitae');
-            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculoVitaEN.pdf?alt=media&token=abce61ab-314c-402b-a96c-db8d375f19f8');
+            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculoVitaEN.pdf?alt=media');
             $('#btn_vitae').attr('target', '_blank');
 
             //portifolio 
@@ -268,7 +268,7 @@ $(window).ready(function() {
             $('#btn_lattes').attr('href','http://lattes.cnpq.br/3899359603733981');
 
             $('#btn_vitae').text('Visualizar Currículo Vitae');
-            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculo%20Vitae.pdf?alt=media&token=aecbcc5b-1564-4cdf-b85b-cae903c36c32');
+            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculo%20Vitae.pdf?alt=media');
             $('#btn_vitae').attr('target', '_blank');
             //portifolio 
             $('#portifolioTitle').text('Portfólio')
