@@ -120,6 +120,7 @@ $(window).ready(function() {
 
             $('#btn_lattes').text('View Curriculum Lattes');
             $('#btn_lattes').attr('href','http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8589066A6&idiomaExibicao=2');
+            $('#btn_lattes').attr('target', '_blank');
 
             $('#btn_vitae').text('View Curriculum Vitae');
             $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculoVitaEN.pdf?alt=media');
@@ -266,6 +267,7 @@ $(window).ready(function() {
 
             $('#btn_lattes').text('Visualizar Currículo Lattes');
             $('#btn_lattes').attr('href','http://lattes.cnpq.br/3899359603733981');
+            $('#btn_lattes').attr('target', '_blank');
 
             $('#btn_vitae').text('Visualizar Currículo Vitae');
             $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculo%20Vitae.pdf?alt=media');
