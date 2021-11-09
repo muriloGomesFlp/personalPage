@@ -118,8 +118,13 @@ $(window).ready(function() {
             $('#analitc').text('Self-Manageable');
 
 
-            $('#btn_lattes').text('View Lattes Curriculum');
+            $('#btn_lattes').text('View Curriculum Lattes');
             $('#btn_lattes').attr('href','http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8589066A6&idiomaExibicao=2');
+
+            $('#btn_vitae').text('View Curriculum Vitae');
+            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculoVitaEN.pdf?alt=media&token=abce61ab-314c-402b-a96c-db8d375f19f8');
+            $('#btn_vitae').attr('target', '_blank');
+
             //portifolio 
             $('#portifolioTitle').text('Portfolio')
             $('#subTitlePortfolio').text('Some of my most recent projects');
@@ -219,7 +224,7 @@ $(window).ready(function() {
             $('#descReDOP').text('Como mencionei anteriormente, por possui uma graduação na área de redes de computadores tive boas experiências com servidores (uma das coisas que mais gosto de trabalhar) e posso ajudá-lo a implementar serviços, aplicações, controle de rede, proxy etc. Dado as novas tecnologia e possibilidades da computação em nuvem nesses últimos meses  estudei algumas plataformas de nuvem e fiquei muito à vontade com o que pode ser feito, usei de Kubernets, Virtual Machine, entre outros. Deixe me ajudar a identificar em seu projeto como a computação em nuvem pode ser aplicado e você vai se surpreender com os resultados.');
            //Resume 
             $('#titleResume').text('Resumo');
-            $('#titleMyresume').text('A summary of My Resume');
+            $('#titleMyresume').text('Resumo do meu currículo');
             //Education
             $('#education').text('Minha Escolaridade');        
             $('#PhdTitle').text('Doutor em Engenharia e Gestão do Conhecimento');
@@ -262,6 +267,9 @@ $(window).ready(function() {
             $('#btn_lattes').text('Visualizar Currículo Lattes');
             $('#btn_lattes').attr('href','http://lattes.cnpq.br/3899359603733981');
 
+            $('#btn_vitae').text('Visualizar Currículo Vitae');
+            $('#btn_vitae').attr('href','https://firebasestorage.googleapis.com/v0/b/gcf-teste.appspot.com/o/personalPage%2FCurriculo%20Vitae.pdf?alt=media&token=aecbcc5b-1564-4cdf-b85b-cae903c36c32');
+            $('#btn_vitae').attr('target', '_blank');
             //portifolio 
             $('#portifolioTitle').text('Portfólio')
             $('#subTitlePortfolio').text('Alguns dos meus projetos');
